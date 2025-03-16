@@ -10,8 +10,8 @@ public class BMIrechner {
         System.out.println("Gewicht in kg, im Format 0,00:");
         double weight = enter.nextDouble();
 
-        double summary = (weight / (height * height));
-        double summrun = Math.round(summary);
+        double bmi = (weight / (height * height));
+        double summrun = Math.round(bmi * 100.0) / 100.0;
         System.out.println("Ihr BMI beträgt: " + summrun + "!");
     }
 }
