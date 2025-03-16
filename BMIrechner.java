@@ -1,4 +1,3 @@
-package com.BMI;
 import java.util.Scanner;
 
 public class BMIrechner {
