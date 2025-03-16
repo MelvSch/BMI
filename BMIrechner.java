@@ -1,7 +1,7 @@
 package com.BMI;
 import java.util.Scanner;
 
-public class BMIrechner_ohne {
+public class BMIrechner {
 
     public static void main(String[] args) {
         Scanner enter = new Scanner(System.in);
